@@ -1,17 +1,6 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import {LandingPage} from "./landing.page"
+import React from "react"
+import ReactDOM from "react-dom"
+import App from "./App"
+import "./index.css"
 
-import "./styles.css"
-function App() {
-    return (
-        <div>
-            <h1>Protected React Routes</h1>
-            <LandingPage/>
-        </div>
-    )
-}
-
-const root = document.querySelector("#root")
-
-ReactDOM.render(<App/>,root)
+ReactDOM.render(<App/>, document.querySelector("#root"));
